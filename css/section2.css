@@ -1,0 +1,181 @@
+.section2{
+    padding-right: 9%;
+    padding-left: 9%;
+}
+
+.section2__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #1F2937;
+    padding-top: 198px;
+    padding-bottom: 150px;
+}
+
+.section2__title span{
+    color: #3730A3;
+}
+
+.section2__review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2__img{
+    transform: translate(-100%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.section2__img._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    padding-right: 20px;
+
+}
+
+.section2__column{
+    display: flex;
+
+    transform: translate(80px, 0px);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+
+.section2__column._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    
+}
+
+.section2__block__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F2937;
+    padding-bottom: 20px;
+}
+
+.section2__block__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6B7280;
+    padding-bottom: 20px;
+}
+
+.section2__block__link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3730A3;
+    margin-bottom: 68px;
+    max-width: 80px;
+}
+
+.section2__block{
+    display: flex;
+    flex-direction: column;
+}
+
+.section2__column1, .section2__column2{
+    max-width: 312px;
+    padding-top: 45px;
+    padding-right: 10px;
+}
+
+
+.companies{
+    background: #FEF2F2;
+    margin-top: 150px;
+}
+
+.companies_text{
+    padding-right: 9%;
+    padding-left: 9%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #9CA3AF;
+}
+
+.companies_row{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 9%;
+    padding-left: 9%;
+    padding-bottom: 100px;
+}
+
+@media (max-width:900px){
+    .section2__review{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:770px){
+    .companies__link{
+        padding: 20px;
+    }
+}
+
+@media (max-width:568px) {
+    .section2__title{
+        font-size: 23px;
+        padding: 75px 0px;
+    }
+
+    .section2__column1, .section2__column2 {
+        margin-right: 4px;
+        padding-right: 0px;
+        margin-left: 30px;
+    }
+
+    .section2__img._active {
+        transform: translate(15px, 0px);
+        padding-right: 0px;
+    }
+
+    .section2__img {
+        transition: all 1.2s ease 0s;
+        width: 100%;
+    }
+
+    .section2{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .companies_text{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 75px;
+    }
+
+    .companies_row img{
+        padding-bottom: 60px;
+    }
+
+    .companies_row{
+        flex-direction: column;
+    }
+
+
+}

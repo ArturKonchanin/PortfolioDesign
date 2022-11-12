@@ -1,0 +1,132 @@
+.section3{
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.section3__title{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.section3__image_block{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.section3__column1_image{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+
+
+.section3__column2_image{
+    position: relative;
+}
+
+
+.section3_project{
+    position: absolute;
+    bottom: 21px;
+    left: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 27px;
+    width: 440px;
+    background: #FFFFFF;
+}
+
+.section3__project_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F2937;
+}
+
+.section3__project_review{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9CA3AF;
+}
+
+.section3__image__row{
+    width: 100%;
+
+}
+
+@media (max-width:1350px){
+    .section3__image_block{
+        flex-direction: column;
+    }
+    .section3__column1_image1 {
+        padding-bottom: 30px;
+    }
+
+    .section3{
+        text-align: center;
+
+    }
+
+    .section3__column1_image{
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    .section3_project{
+        width: calc(100vw * 0.35);
+        left: calc(100vw * 0.20);
+    }
+}
+
+@media (max-width:1000px) {
+    .section3_project {
+        width: calc(100vw * 0.35);
+        left: calc(100vw * 0.15);
+    }
+
+    .section3__title{
+        padding: 100px 0px;
+    }
+
+    .section3__project_text{
+        text-align: left;
+    }
+}
+
+@media (max-width:650px) {
+    .section3__column2_block{
+        width: calc(100vw * 0.82);
+    }
+
+    .section3_project {
+        width: calc(100vw * 0.45);
+        left: calc(100vw * 0.05);
+    }
+
+    .section3__image_block {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:415px) {
+    .section3__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
