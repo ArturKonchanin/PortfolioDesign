@@ -15,14 +15,20 @@ hr{
 }
 
 [class*=__container] {
-    max-width: 95rem;
-    /*max-width: 73.125rem;*/
+    max-width: 73.125rem;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     margin: 0 auto;
     padding: 0 0.9375rem;
 }
 
+.__container_companies {
+    max-width: 92rem;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}
 
 .main__text{
     max-width: 662px;
